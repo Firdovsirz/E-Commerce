@@ -103,7 +103,7 @@ export default function Products() {
             <div className='w-[80%] h-[100%] overflow-scroll flex flex-wrap justify-start items-center'>
                 {products.map((product, index) => {
                     return (
-                        <div className="w-[260px] rounded m-10" style={{ boxShadow: "2px 2px 10px #b9b9bb9"}}>
+                        <div className="w-[260px] rounded m-10" style={{ boxShadow: "2px 2px 10px #b9b9bb9"}} key={index}>
                             <div
                                 className="relative w-[258px] h-[250px] flex items-center justify-center"
                                 style={{ background: "#f5f5f5" }}
